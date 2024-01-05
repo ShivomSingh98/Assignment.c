@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int n,i,c=0;
+int n,i,a=0;
 printf("Enter any number:");
 scanf("%d",&n);
 for (i=1;i<=n;i++)
 {
 if(n%i==0)
 {
-c++;
+a++;
 }
 }
-if(c==2)
+if(a==2)
 {
 printf("%d is a prime number",n);
 }
